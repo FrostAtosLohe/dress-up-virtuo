@@ -1,4 +1,4 @@
-/*eslint-disable space-unary-ops*/
+  /*eslint-disable space-unary-ops*/
 'use strict';
 
 const VIRTUO = (() => { //eslint-disable-line
