@@ -119,7 +119,10 @@
       <input class="js-begin input-group input-group-sm mb-3" type="date" placeholder="Rental begin date"/>
       <input class="js-end input-group input-group-sm mb-3" type="date" placeholder="Rental end date"/>
       <input class="js-distance input-group input-group-sm mb-3" type="number" placeholder="Distance in km"/>
-      <input class="js-option input-group input-group-sm mb-3" type="checkbox" placeholder="Deductible option"/>
+      <div class="form-check mb-3">
+        <input class="js-option form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">Deductible option</label>
+      </div>
     </div>
     <button type="button" class="btn btn-info" id="compute">Compute</button>
     <div id="actors"></div>
